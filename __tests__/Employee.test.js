@@ -1,15 +1,11 @@
 const Employee = require('../lib/Employee')
 
-test('set name as an argument' () => {
-    const name = 'Joe'
-    const e = new Employee(name);
-    
-    expect(e.name).toBe(name)
-   })
+describe('Employee', () => {
+    describe('Start', () => {
+        it('Should create an object with a name', () => {
+            const employee = new Employee('Rob')
 
-   test('getName() to get name of employee' () => {
-    const name = 'Joe'
-    const e = new Employee(name);
-    
-    expect(e.getName()).toBe(name)
-   })
+            expect(employee.name).toEqual('Rob');
+        });
+    });
+});

@@ -2,11 +2,10 @@ const Intern = require('../lib/Intern');
 
 describe('Intern', () => {
     describe('Start', () => {
-        it('Should create an object with an id and name', () => {
-            const intern = new Intern(123, 'Rob')
+        it('Should create an object with a name', () => {
+            const intern = new Intern('Roberto')
 
-            expect(intern.id).toEqual(123);
-            expect(intern.name).toEqual('Rob');
-        })
-    })
+            expect(intern.name).toEqual('Roberto');
+        });
+    });
 });
