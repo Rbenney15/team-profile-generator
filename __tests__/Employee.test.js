@@ -1,4 +1,4 @@
-// 
+const Employee = require('../lib/Employee')
 
 test('set name as an argument' () => {
     const name = 'Joe'
