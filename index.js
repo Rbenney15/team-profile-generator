@@ -46,7 +46,7 @@ const managerQuestions = () => {
                 internQuestions();
                 break;
             default:
-                writeToFile('', )
+                writeToFile('dist/index.html', generateTeam(team))
         }
     })
 };
@@ -91,7 +91,7 @@ const engineerQuestions = () => {
                 internQuestions();
                 break;
             default: 
-                fs.writeFile('', )
+            writeToFile('dist/index.html', generateTeam(team))
         }
     });
 };
@@ -136,15 +136,15 @@ const internQuestions = () => {
                 internQuestions();
                 break;
             default: 
-                fs.writeFile('', )
+            writeToFile('dist/index.html', generateTeam(team))
         }
     });
 };
 
 managerQuestions();
 
-function writeToFile( , ) {
-    fs.writeFile( , , (err) => {
+function writeToFile(filename, data) {
+    fs.writeFile(filename, data, (err) => {
         if(err) throw err;
         console.log('file saved')
     });
