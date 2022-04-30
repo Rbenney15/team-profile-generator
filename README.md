@@ -12,7 +12,7 @@
 * [Questions](#questions)
 
 # Application Demo Video
-(DEMO VIDEO HERE)
+https://user-images.githubusercontent.com/98703735/166083460-ebfff9b4-ffae-4503-a349-ba41eb02913d.mp4
 
 # Description
 This application is a node command line interface that allows a manager to build a team roster by inputing some general information about each team member. A HTML webpage that will display a summary of each team member to easily access their team's contact information.
