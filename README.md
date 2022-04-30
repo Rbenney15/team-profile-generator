@@ -15,7 +15,7 @@
 (DEMO VIDEO HERE)
 
 # Description
-This application assists in generating a team roster
+This application is a node command line interface that allows a manager to build a team roster by inputing some general information about each team member. A HTML webpage that will display a summary of each team member to easily access their team's contact information.
 
 # Installation
 * Download repo from GitHub
