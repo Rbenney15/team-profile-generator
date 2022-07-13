@@ -28,4 +28,4 @@ This application is a node command line interface that allows a manager to build
 * Once all prompts are answered, a team roster HTML file is created
 
 # Questions
-* GitHub url where the project is located: https://github.com/Rbenney15/team-profile-generator.git
+* GitHub url where the project is located: https://github.com/Rbenney15/team-profile-generator
